@@ -13,7 +13,6 @@ use traits::*;
 use {BigInt, EncryptionKey, Paillier, RawCiphertext, RawPlaintext};
 
 const STATISTICAL_ERROR_FACTOR: usize = 40;
-const RANGE_BITS: usize = 256; //for elliptic curves with 256bits for example
 
 #[derive(Default, Debug, Serialize, Deserialize)]
 pub struct EncryptedPairs {
